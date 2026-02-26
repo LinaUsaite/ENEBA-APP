@@ -2,7 +2,7 @@
 
 ## Live Demo
 Frontend:
-https://TAVO-VERCEL-LINKAS
+https://eneba-jx8cqob55-usaite7-4728s-projects.vercel.app
 
 Backend API:
 https://eneba-app.onrender.com/list
