@@ -2,8 +2,7 @@
 
 ## Live Demo
 Frontend:
-https://eneba-jx8cqob55-usaite7-4728s-projects.vercel.app
-
+https://eneba-app.vercel.app
 Backend API:
 https://eneba-app.onrender.com/list
 
