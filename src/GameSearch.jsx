@@ -11,7 +11,9 @@ export default function GameSearch() {
         ? `/list?search=${encodeURIComponent(search.trim())}`
         : "/list";
 
-      const response = await fetch(url);
+      const API = "https://eneba-app.onrender.com";
+
+      const response = await fetch(`${API}${url}`);
       const data = await response.json();
       setItems(data.items ?? []);
     }, 250);
@@ -38,7 +40,9 @@ export default function GameSearch() {
       </div>
 
       <div className="mx-auto max-w-6xl px-6 pb-10">
-        <p className="mb-4 text-white/80 text-sm">Results found: {items.length}</p>
+        <p className="mb-4 text-white/80 text-sm">
+          Results found: {items.length}
+        </p>
 
         <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
           {items.map((game) => (
